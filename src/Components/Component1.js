@@ -10,7 +10,7 @@ export default function Component1() {
           <li><a href="#come-here">HOME</a></li>
           <li><a href="#Us">ABOUT US</a></li>
           <li><a href="#about">ABOUT HER-O</a></li>
-          <li><a href="#duty">OUR COMPLIANCE</a></li>
+          {/* <li><a href="#duty">OUR COMPLIANCE</a></li> */}
         </ul>
       </nav>
     </div>

@@ -32,10 +32,12 @@ const getLocation = document.getElementById("locate2");
 console.log(getLocation);
 getLocation.addEventListener('click',evt=>{
     if('geolocation' in navigator){
-        let watchID = navigator.geolocation.watchPosition(position=>{
+        let watchID = navigator.geolocation.getCurrentPosition(position=>{
             let latitude = position.coords.latitude;
             let longitude = position.coords.longitude;
             let accuracy =  position.coords.accuracy;
+            var x=prompt("enter your phone number");
+            alert("your latitude is: "+latitude+" your longitude is: "+longitude+" Accuracy is: "+accuracy);
             const mes = document.getElementById("message");
             ReactDOM.render(
               <React.StrictMode>
