@@ -11,13 +11,13 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <script>
         function myFunction() {
-        var x = document.getElementById("myLinks");
-        console.log(x);
-        if (x.style.display === "block") {
-          x.style.display = "none";
-        } else {
-          x.style.display = "block";
-        }
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+          x.style.transition = "transform 0.4s";
       }
       myFunction();
     </script>

@@ -388,8 +388,15 @@ ul{
   display: flex;
   justify-content: space-between;
 }
-.nav-bar a.icon{
+.nav-bar #myLinks {
+  display: block;
+}
+.nav-bar a.icon {
+  background: #EB1D36;
   display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .upper{
   position: relative;
@@ -500,6 +507,16 @@ ul{
 /*TABLETS*/
 }
 @media only screen and (max-width: 1000px) and (min-width: 700px) {
+  .nav-bar #myLinks {
+    display: none;
+  }
+  .nav-bar a.icon {
+    background: #EB1D36;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
   h1,h2{
     font-size: 3rem;
     font-weight: 80;
@@ -525,6 +542,9 @@ ul{
   }
   .nav-bar ul{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   .nav-bar a{
     padding: 0.1vw;
