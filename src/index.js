@@ -18,15 +18,15 @@ function update(){
 }
 update();
 const nav = document.getElementById("glass");
-        let lastScrollY = window.scrollY;
-        window.addEventListener("scroll", () => {
-          if (lastScrollY<window.scrollY){
-            nav.classList.add("hidden-nav");
-          }else{
-            nav.classList.remove("hidden-nav");
-          }
-          lastScrollY=window.scrollY;
-        });
+let lastScrollY = window.scrollY;
+window.addEventListener("scroll", () => {
+  if (lastScrollY<window.scrollY){
+    nav.classList.add("hidden-nav");
+  }else{
+    nav.classList.remove("hidden-nav");
+  }
+  lastScrollY=window.scrollY;
+});
 
 
 
