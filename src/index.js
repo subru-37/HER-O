@@ -5,7 +5,10 @@ import App from './App';
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-    <App />,
+  <React.StrictMode>
+        <App />
+  </React.StrictMode>
+    ,
   rootElement
 );
 const filled = document.querySelector('.filled');
@@ -15,7 +18,6 @@ function update(){
 }
 update();
 const nav = document.getElementById("glass");
-        console.log(nav);
         let lastScrollY = window.scrollY;
         window.addEventListener("scroll", () => {
           if (lastScrollY<window.scrollY){

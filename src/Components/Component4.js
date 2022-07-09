@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Component3() {
   return (
-    <div class="upper">
-    <div id="locate1" class="locate">
+    <div className="upper">
+    <div id="locate1" className="locate">
       <button className="btn-88">
         <svg viewBox="0 0 597.975 597.975">
           <path

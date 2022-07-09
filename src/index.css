@@ -13,7 +13,7 @@ p{
 }
 body{
   line-height: 1.6;
-  background-color: #ffffff;
+  background-color: #000000;
   font-family: 'Roboto';
 }
 h1,h2{
@@ -88,11 +88,11 @@ ul{
 /* BACK TO TOP BUTTON*/
 #back-to-top{
   position: fixed;
-  bottom: 0;
-  right:0;
+  bottom: 10px;
+  right:10px;
   width: auto;
+  z-index: 200;
 }
-
 .btn-12,
 .btn-12 *,
 .btn-12 :after,
