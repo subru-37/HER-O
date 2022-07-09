@@ -4,6 +4,7 @@ export default function Component3() {
   return (
     <div className="upper">
       <div id="locate1" className="locate">
+      <a href="tel:07356029354">
         <button className="btn-88">
           <svg viewBox="0 0 597.975 597.975">
             <path
@@ -32,13 +33,13 @@ export default function Component3() {
                 c22.95,0,40.8-17.85,40.8-40.8V441.787z"
             />
           </svg>
-        </button>   
+        </button></a>  
         <h3>
           EMERGENCY CALL
         </h3>
       </div>
-      <div id="locate2" className="locate">
-        <button className="btn-89">
+      <div className="locate">
+        <button className="btn-89" id="locate2">
           <svg viewBox="0 0 45.917 45.917">
             <path
               d="M33.523,28.334c-0.717,1.155-1.498,2.358-2.344,3.608c7.121,1.065,10.766,3.347,10.766,4.481
@@ -63,6 +64,9 @@ export default function Component3() {
           <p>Who Is Her-o <br/>
               “Necessity is the mother of change“<br/>
               Keeping the her anonymity we would like</p>
+          <div id="message">
+
+          </div>
         </div>
       </div>
     </div>

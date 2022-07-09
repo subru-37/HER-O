@@ -18,10 +18,10 @@ export default function App() {
       <Component3/>
       <div>
         <Component4/>
-        <Component7/>
         <Component5/>
+        <Component7/>
       </div>
-      <Component6/>
+      {/* <Component6/> */}
       <Componentf/>
     </div>
   );

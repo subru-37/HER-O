@@ -28,5 +28,32 @@ window.addEventListener("scroll", () => {
   lastScrollY=window.scrollY;
 });
 
+const getLocation = document.getElementById("locate2");
+console.log(getLocation);
+getLocation.addEventListener('click',evt=>{
+    if('geolocation' in navigator){
+        let watchID = navigator.geolocation.watchPosition(position=>{
+            let latitude = position.coords.latitude;
+            let longitude = position.coords.longitude;
+            let accuracy =  position.coords.accuracy;
+            const mes = document.getElementById("message");
+            ReactDOM.render(
+              <React.StrictMode>
+                <div>
+                  PS. Your location has been sent to HER-O, hold on to a safe area, you shall be rescued
+                </div>
+              </React.StrictMode>,mes
+            );
+        },error=>{
+            alert(error.code)
+        },{
+          enableHighAccuracy: true
+        });
+    }else{
+        alert("Not supported")
+    }
+
+});
+
 
 

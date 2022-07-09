@@ -6,7 +6,6 @@
 a{
   text-decoration: none;
   color: #ffffff;
-  margin: 80px;
 }
 p{
   color: #fff;
@@ -43,7 +42,7 @@ ul{
   flex-direction: column;
   font-size: 1.25rem;
   min-height: 50vw;
-  background-color: #FBCB0A;
+  background-color: #F5EDDC;
 }
 .content3 .about{
   width: 75vw;
@@ -496,6 +495,16 @@ ul{
 
 /* MOBILE */
 @media only screen and (max-width: 699px) {
+  .content3 .about{
+    width: 90vw;
+    font-size:1.5rem;
+  }
+  .content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
   .fa-bars{
     font-size:30px;
   }
@@ -562,7 +571,7 @@ ul{
   }
 
   .content1 .about-us p{
-    padding: 0 20px;
+    padding: 0;
     line-height: 1.6;
     font-size: 1.5rem;
     background-color: #23055f;
@@ -573,7 +582,7 @@ ul{
   }
   .content1 .about-us h1{
     color: #fff;
-    padding: 0 20px;
+    padding: 0;
   }
   .content1 .compliance h1{
     color: #fff;
@@ -602,8 +611,13 @@ ul{
   .footer-content .size{
     font-size:30px;
   }
-/*TABLETS*/
+  .about-us{
+    min-width: 90vw;
+    font-size: 1.5rem;
+  }
 }
+/*TABLETS*/
+
 @media only screen and (max-width: 1000px) and (min-width: 700px) {
   .nav-bar #myLinks {
     display: none;
@@ -734,7 +748,7 @@ footer{
 }
 
 .social-links{
-  max-width: 75vw;
+  min-width: 75vw;
   list-style: none;
   display: flex;
   justify-content: space-around;
