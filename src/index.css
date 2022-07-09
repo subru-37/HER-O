@@ -179,6 +179,17 @@ ul{
   --progress: 0;
 }
 /*CALL BUTTON*/
+.locate h3{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 10px;
+}
+.locate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .btn-88,
 .btn-88 *,
 .btn-88 :after,
@@ -409,18 +420,6 @@ ul{
 .nav-bar ul{
   display: flex;
 }
-@media only screen and (min-width:1000px) {
-  .upper1{
-    position: absolute;
-    top: 0;
-    background-image: url("https://wallpaperaccess.com/full/6357886.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    min-width: 98.9vw;
-  }
-  
-}
 
 /* MOBILE */
 @media only screen and (max-width: 699px) {
@@ -531,5 +530,8 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;    
+  }
+  .locate{
+    padding: 20px 0;
   }
 }
