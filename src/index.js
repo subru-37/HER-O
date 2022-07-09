@@ -20,14 +20,17 @@ update();
 const nav = document.getElementById("glass");
 let lastScrollY = window.scrollY;
 window.addEventListener("scroll", () => {
-  if (lastScrollY<window.scrollY){
+  if ((lastScrollY<window.scrollY)){
     nav.classList.add("hidden-nav");
+    
   }else{
     nav.classList.remove("hidden-nav");
   }
   lastScrollY=window.scrollY;
-});
-
+});  
+// document.querySelector('#myLinks').addEventListener('click', () => {
+//   document.querySelector('#myLinks').style.display ="none"
+// }); 
 const getLocation = document.getElementById("locate2");
 console.log(getLocation);
 getLocation.addEventListener('click',evt=>{
@@ -37,6 +40,9 @@ getLocation.addEventListener('click',evt=>{
             let longitude = position.coords.longitude;
             let accuracy =  position.coords.accuracy;
             var x=prompt("enter your phone number");
+            if (x.length<10){
+              alert("Enter correct phone number")
+            }else{
             alert("your latitude is: "+latitude+" your longitude is: "+longitude+" Accuracy is: "+accuracy);
             const mes = document.getElementById("message");
             ReactDOM.render(
@@ -45,7 +51,7 @@ getLocation.addEventListener('click',evt=>{
                   PS. Your location has been sent to HER-O, hold on to a safe area, you shall be rescued
                 </div>
               </React.StrictMode>,mes
-            );
+            );}
         },error=>{
             alert(error.code)
         },{
