@@ -29,12 +29,47 @@ img{
 ul{
   list-style-type: none;
 }
-.content{
+.content1{
+  display: flex;
+  justify-content:center;
+  align-items:stretch;
+  flex-direction: column;
+  font-size: 1.25rem;
+}
+.content3{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  font-size: 1.25rem;
+  min-height: 50vw;
+  background-color: #FBCB0A;
+}
+.content3 .about{
+  width: 75vw;
+  font-size:1.5rem;
+}
+.content3 .about h1{
+  color:#000
+}
+.content3 .about p{
+  color:#000
+}
+.content2{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   font-size: 1.25rem;
+}
+.content1 .about-us h1{
+  color: #000;
+}
+.content1 .about-us p{
+  color:black;
+}
+.content2 .compliance p{
+  color: #ffffff;
 }
 
 /*SCROLL BAR*/
@@ -48,14 +83,14 @@ ul{
 .scroll-progress .filled{
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right, green, yellow);
+  background-image: linear-gradient(to right,#43cea2, #185a9d);
 }
 /*NAVBAR*/
 .hidden-nav{
   transform: translateY(-200px);
 }
 .container{
-  max-width: 1000px;
+  max-width: 1200px;
   overflow:auto;
   padding: 0 30px;
   margin: 0 auto;
@@ -407,20 +442,31 @@ ul{
   flex-wrap: wrap;
   background-color: #000;
 }
-.content{
-  background-color: #23055f;
+.upper .aa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upper .a{
+  min-width:85vw;
 }
 .a{
-  max-width: 85vw;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   text-align: center;
   font-style: italic;
   color:#fff;
 }
 .about-us{
+  position: relative;
   width: 75vw;
-  font-size: 1.5rem;;
+  font-size: 1.5rem;
+  min-height:50vh;
+  padding-left: 10px;
+}
+.compliance{
+  width: 75vw;
+  font-size:1.5rem;
 }
 .nav-bar a{
   padding: 10px;
@@ -430,9 +476,32 @@ ul{
 .nav-bar ul{
   display: flex;
 }
+.fa-angle-double-up{
+  font-size:2vw;
+}
+@media only screen and (min-width:1000px) {
+  .content1{
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Pattambi_Palam.jpg/1200px-Pattambi_Palam.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .footer-content .size{
+    font-size:30px;
+  }
+  .content1 .about-us{
+    background-color: #fff;
+    opacity:0.8;
+  }
+}
 
 /* MOBILE */
 @media only screen and (max-width: 699px) {
+  .fa-bars{
+    font-size:30px;
+  }
+  .fa-angle-double-up{
+    font-size: 7vw;
+  }
   .nav-bar #myLinks {
     display: none;
   }
@@ -441,10 +510,11 @@ ul{
     display: block;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 2vh;
+    border: 0;
   }
   h1,h2{
-    font-size: 10vw;
+    font-size: 2.5rem;
     font-weight: 80;
     line-height: 1.2;
     margin: 10px 0;
@@ -490,12 +560,27 @@ ul{
     justify-content: space-around;
     align-items: center;    
   }
-  h1{
-    font-size: 3rem;
-    padding: 20px 0;
+
+  .content1 .about-us p{
+    padding: 0 20px;
     line-height: 1.6;
+    font-size: 1.5rem;
+    background-color: #23055f;
+    color: #fff;
   }
-  .content .about-us{
+  .content1{
+    background-color: #23055f;
+  }
+  .content1 .about-us h1{
+    color: #fff;
+    padding: 0 20px;
+  }
+  .content1 .compliance h1{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+  }
+  .content2 .compliance{
     width: 100vw;
     padding: 0 20px;
     line-height: 1.6;
@@ -503,6 +588,19 @@ ul{
   }
   .content{
     background-color: #23055f;
+  }
+  .footer-content h1{
+    font-size: 35px;
+  }
+  .footer-content{
+    min-height: 150px;
+    max-width: 95vw;
+  }
+  .footer-content ul{
+    max-width: 60vw;
+  }
+  .footer-content .size{
+    font-size:30px;
   }
 /*TABLETS*/
 }
@@ -515,7 +613,14 @@ ul{
     display: block;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 25px;
+    border: 0;
+  }
+  .fa-bars{
+    font-size:40px;
+  }
+  .fa-angle-double-up{
+    font-size:3vw;
   }
   h1,h2{
     font-size: 3rem;
@@ -525,15 +630,26 @@ ul{
     color: #FFF2F2;
   }
   .upper{
-    min-height: 80vh;
+    min-height: 75vh;
   }
-  .content{
+  .content1{
     background-color: #23055f;
+  }
+  .content1 .about-us p{
+    color:#fff;
+  }
+  .content1 .about-us h1{
+    color: #fff;
   }
   .about-us{
     min-width: 90vw;
     font-size: 1.5rem;
   }
+  .compliance{
+    min-width: 90vw;
+    font-size: 1.5rem;
+  }
+  
   .nav-bar .flex{
     display: flex;
     justify-content: space-around;
@@ -568,4 +684,70 @@ ul{
   .locate{
     padding: 20px 0;
   }
+  .content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.25rem;
+  }
+  .footer-content{
+    min-height:200px;
+  }
+  .footer-content .size{
+    font-size:30px;
+  }
+  .footer-content h1{
+    font-size: 35px;
+  }
+  .footer-content .social-link{
+    width: 200px;
+  }
 }
+/* FOOTER */
+footer{
+  background: #111;
+  height: auto;
+  font-family: 'Roboto';
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  flex-direction: column;
+  min-height: 20vh;
+}
+
+.footer-content h1{
+  font-weight: 80;
+  line-height: 1.2;
+  margin-bottom: 2px;
+  padding: 0;
+}
+
+.footer-content p{
+  margin-top: 0.1vh;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-links{
+  max-width: 75vw;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.social-links a:hover i{
+  color: aqua;
+}
+
+.footer-bottom{
+  background: #000;
+  text-align: center;
+}
+

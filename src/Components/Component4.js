@@ -58,10 +58,12 @@ export default function Component3() {
           EMERGENCY LOCATE
         </h3>
       </div>
-      <div className="a">
-        <p>"Her-o is a website that acts as a medium to connect people who are dealing with sexual exploitation. 
-          Pattambi has reached its zenith with this cause apparently people can’t control their thoughts. 
-          J is advocating for rights for people who are victims of this inhumane act ."</p>
+      <div className="aa">
+        <div className="a">
+          <p>Who Is Her-o <br/>
+              “Necessity is the mother of change“<br/>
+              Keeping the her anonymity we would like</p>
+        </div>
       </div>
     </div>
   );
