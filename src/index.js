@@ -37,7 +37,7 @@ getLocation.addEventListener('click',evt=>{
             let latitude = position.coords.latitude;
             let longitude = position.coords.longitude;
             let accuracy =  position.coords.accuracy;
-              var message = "https://www.google.com/maps/search/?api=1&query="+latitude+","+longitude
+            var message = "https://www.google.com/maps/search/?api=1&query="+latitude+","+longitude
             window.Email.send({
               Host: "smtp.elasticemail.com",
               Username: "easwaransubramaniOO7@gmail.com",
