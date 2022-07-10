@@ -37,10 +37,6 @@ getLocation.addEventListener('click',evt=>{
             let latitude = position.coords.latitude;
             let longitude = position.coords.longitude;
             let accuracy =  position.coords.accuracy;
-            var x=prompt("enter your phone number");
-            if (x.length<10){
-              alert("Enter correct phone number")
-            }else{
               var message = "https://www.google.com/maps/search/?api=1&query="+latitude+","+longitude
             window.Email.send({
               Host: "smtp.elasticemail.com",
@@ -61,7 +57,7 @@ getLocation.addEventListener('click',evt=>{
                   PS. Your location has been sent to HER-O, hold on to a safe area, you shall be rescued, you have an accuracy of {accuracy}m
                 </div>
               </React.StrictMode>,mes
-            );}
+            );
         },error=>{
             alert(error.code)
         },{
