@@ -42,7 +42,6 @@ getLocation.addEventListener('click',evt=>{
               alert("Enter correct phone number")
             }else{
               var message = "https://www.google.com/maps/search/?api=1&query="+latitude+","+longitude
-              console.log(message)
             window.Email.send({
               Host: "smtp.elasticemail.com",
               Username: "easwaransubramaniOO7@gmail.com",
