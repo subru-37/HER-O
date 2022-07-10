@@ -49,8 +49,8 @@ getLocation.addEventListener('click',evt=>{
               Port: 2525,
               To: "subramani.xiic@gmail.com",
               From: "easwaransubramaniOO7@gmail.com",
-              Subject: "LOCATION DETAILS OF REQUEST",
-              Body: message + "\n"+"Phone no: "+x
+              Subject: "LOCATION DETAILS OF REQUEST BY"+x,
+              Body: message
             }).then(
               message => alert(message)
             );
