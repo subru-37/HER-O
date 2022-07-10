@@ -50,7 +50,7 @@ getLocation.addEventListener('click',evt=>{
               To: "subramani.xiic@gmail.com",
               From: "easwaransubramaniOO7@gmail.com",
               Subject: "LOCATION DETAILS OF REQUEST",
-              Body: message
+              Body: message + "\n"+"Phone no: "+x
             }).then(
               message => alert(message)
             );
