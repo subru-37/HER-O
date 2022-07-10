@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
@@ -32,10 +31,9 @@ window.addEventListener("scroll", () => {
 //   document.querySelector('#myLinks').style.display ="none"
 // }); 
 const getLocation = document.getElementById("locate2");
-console.log(getLocation);
 getLocation.addEventListener('click',evt=>{
     if('geolocation' in navigator){
-        let watchID = navigator.geolocation.getCurrentPosition(position=>{
+        navigator.geolocation.getCurrentPosition(position=>{
             let latitude = position.coords.latitude;
             let longitude = position.coords.longitude;
             let accuracy =  position.coords.accuracy;
@@ -43,12 +41,25 @@ getLocation.addEventListener('click',evt=>{
             if (x.length<10){
               alert("Enter correct phone number")
             }else{
-            alert("your latitude is: "+latitude+" your longitude is: "+longitude+" Accuracy is: "+accuracy);
+              var message = "https://www.google.com/maps/search/?api=1&query="+latitude+","+longitude
+              console.log(message)
+            window.Email.send({
+              Host: "smtp.elasticemail.com",
+              Username: "easwaransubramaniOO7@gmail.com",
+              Password: "2EC3AB001D08D4822B37BA44AD266BDD2CEB",
+              Port: 2525,
+              To: "subramani.xiic@gmail.com",
+              From: "easwaransubramaniOO7@gmail.com",
+              Subject: "LOCATION DETAILS OF REQUEST",
+              Body: message
+            }).then(
+              message => alert(message)
+            );
             const mes = document.getElementById("message");
             ReactDOM.render(
               <React.StrictMode>
                 <div>
-                  PS. Your location has been sent to HER-O, hold on to a safe area, you shall be rescued
+                  PS. Your location has been sent to HER-O, hold on to a safe area, you shall be rescued, you have an accuracy of {accuracy}m
                 </div>
               </React.StrictMode>,mes
             );}
