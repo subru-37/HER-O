@@ -3,6 +3,7 @@ import React from 'react';
 export default function Component3() {
   return (
     <div className="upper">
+      <div className='upper1'>
       <div id="locate1" className="locate">
       <a href="tel:07356029354">
         <button className="btn-88">
@@ -69,6 +70,8 @@ export default function Component3() {
           </div>
         </div>
       </div>
+      </div>
+      
     </div>
   );
 }

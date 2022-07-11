@@ -9,7 +9,8 @@ export default function Component1() {
         <ul>
           <li><a href="#come-here">HOME</a></li>
           <li><a href="#about">ABOUT HER-O</a></li>
-          <li><a href="#Us">ABOUT US</a></li>
+          <li><a href="#SV">SUPER HERO</a></li>
+          <li><a href="#abilities">ABILITIES</a></li>
           {/* <li><a href="#duty">OUR COMPLIANCE</a></li> */}
         </ul>
       </nav>
