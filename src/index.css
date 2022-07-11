@@ -561,7 +561,7 @@ footer{
   }
   .content9 .SV{
     background-color: #fff;
-    opacity: 0.6;
+    opacity: 0.9;
   }
   .footer-content .size{
     font-size:30px;
@@ -594,7 +594,6 @@ footer{
   }
   .react-slideshow-container{
     max-width: 83vw;
-    text-align: center;
   }
   .each-fade{
     min-height: 50vh;
@@ -619,29 +618,29 @@ footer{
     background-image: url("https://www.mandatory.com/assets/uploads/2015/12/Supergirl-Comic-Featured.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height:75vh;
+    min-height:80vh;
   }
   .i2{
     background-image: url("https://c4.wallpaperflare.com/wallpaper/450/920/892/comics-comic-books-comic-art-comic-girls-mystique-hd-wallpaper-thumb.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height:75vh;
+    min-height:80vh;
   }
   .i3{
     background-image: url("https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1565376474186-3E63J2J8W93PD3EQ21AS/image-asset.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height:75vh;
+    min-height:80vh;
   }
   .i4{
     background-image: url("https://nerdist.com/wp-content/uploads/2017/11/Marvel-Multiple-Man.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height:75vh;
+    min-height:80vh;
   }
   .opa{
     background-color: #ffffff;
-    opacity: 0.6;
+    opacity: 0.9;
   }
   .opa h1{
     font-size: 3rem;
@@ -720,7 +719,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    min-height: 150vh;
+    min-height: 100vh;
   }
   .nav-bar ul{
     display: flex;
@@ -814,7 +813,6 @@ footer{
   }
   .react-slideshow-container{
     max-width: 90vw;
-    text-align: center;
   }
   .each-fade{
     min-height: 50vh;
@@ -1024,7 +1022,7 @@ footer{
   }
   .opa{
     background-color: #ffffff;
-    opacity: 0.6;
+    opacity: 0.8;
   }
   .opa h1{
     font-size: 3rem;
