@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/HER-O/static/css/main.fe59897e.css",
-    "main.js": "/HER-O/static/js/main.89c34cea.js",
+    "main.css": "/HER-O/static/css/main.f9f095e7.css",
+    "main.js": "/HER-O/static/js/main.612ec013.js",
     "index.html": "/HER-O/index.html",
-    "main.fe59897e.css.map": "/HER-O/static/css/main.fe59897e.css.map",
-    "main.89c34cea.js.map": "/HER-O/static/js/main.89c34cea.js.map"
+    "main.f9f095e7.css.map": "/HER-O/static/css/main.f9f095e7.css.map",
+    "main.612ec013.js.map": "/HER-O/static/js/main.612ec013.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe59897e.css",
-    "static/js/main.89c34cea.js"
+    "static/css/main.f9f095e7.css",
+    "static/js/main.612ec013.js"
   ]
 }
