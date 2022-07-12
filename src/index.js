@@ -54,12 +54,14 @@ getLocation.addEventListener('click',evt=>{
             ReactDOM.render(
               <React.StrictMode>
                 <div>
-                  PS. Your location has been sent to HER-O, hold on to a safe area, you shall be rescued, you have an accuracy of {accuracy}m
+                <p>
+                PS. Your location has been sent to HER-O, hold on to a safe area,<br/> you shall be rescued, you have an accuracy of {accuracy}m
+                </p>
                 </div>
               </React.StrictMode>,mes
             );
         },error=>{
-            alert(error.code)
+            alert("ENABLE LOCATION ACCESS, ERROR CODE: "+error.code)
         },{
           enableHighAccuracy: true
         });
