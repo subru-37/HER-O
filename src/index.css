@@ -464,7 +464,7 @@ ul{
   align-items: center;
 }
 .upper .a{
-  min-width:85vw;
+  min-width:75vw;
 }
 .a{
   font-family: 'roboto', sans-serif;
@@ -545,11 +545,20 @@ footer{
 }
 
 @media only screen and (min-width:1000px) {
-  .content1{
-    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Pattambi_Palam.jpg/1200px-Pattambi_Palam.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  .HERO{
+    width: 10vw;
     height: 50vh;
+    position: absolute;
+    top:25%;
+  }
+  .content1{
+    height: 50vh;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Pattambi_Palam.jpg/1920px-Pattambi_Palam.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .content1 .bgm{
+    max-width:80vw;
   }
   .content9{
     display: flex;
@@ -692,6 +701,10 @@ footer{
     align-items: center;
     flex-direction: column;
     max-width:85vw;
+    min-height: 100vh;
+  }
+  .HERO{
+    display: none;
   }
   .content1{
     display: flex;
@@ -1006,7 +1019,7 @@ footer{
     color: #000;
   }
   .slide-container .i1{
-    background-image: url("https://www.mandatory.com/assets/uploads/2015/12/Supergirl-Comic-Featured.jpg");
+    background-image: url("https://wallpapers.com/images/high/comic-supergirl-in-outer-space-j1w0j9558zjy7ze0.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     min-height:75vh;
@@ -1052,5 +1065,8 @@ footer{
     color: #000;
     text-align: center;
     font-size: 4rem;
+  }
+  .sample .HERO{
+    display: none;
   }
 }
