@@ -433,7 +433,7 @@ ul{
 .content1{
   display: flex;
   justify-content:center;
-  align-items:end;
+  align-items:center;
   flex-direction: column;
   font-size: 1.25rem;
   min-height: 50vw;
@@ -441,10 +441,10 @@ ul{
 
 .upper{
   position: relative;
-  min-height: 75vh;
+  min-height: 85vh;
   display: flex;
   justify-content: space-around;
-  align-items: end;
+  align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
   background-color: #000;
@@ -455,7 +455,8 @@ ul{
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  max-width:85vw;
+  max-width:75vw;
+  min-height: 60vh;
 }
 .upper .aa{
   display: flex;
@@ -466,22 +467,22 @@ ul{
   min-width:85vw;
 }
 .a{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'roboto', sans-serif;
   font-size: 1.7rem;
   text-align: center;
-  font-style: italic;
+  font-style: bold;
   color:#fff;
 }
 .SV{
   position: relative;
-  max-width: 85vw;
+  max-width: 80vw;
   font-size: 1.5rem;
   min-height:50vh;
   background-color: #F5EDDC;
 }
 .about-us{
   position: relative;
-  max-width: 85vw;
+  max-width: 80vw;
   font-size: 1.5rem;
   min-height:50vh;
 }
@@ -508,7 +509,7 @@ footer{
   align-items: center;
   justify-content:space-around;
   flex-direction: column;
-  min-height: 20vh;
+  min-height: 15vh;
 }
 
 .footer-content h1{
@@ -553,7 +554,7 @@ footer{
   .content9{
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
     flex-direction: column;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Pattambi_Town1.jpg/1280px-Pattambi_Town1.jpg");
     background-repeat: no-repeat;
@@ -576,11 +577,11 @@ footer{
   .footer{
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
     flex-direction: column;
   }
   .footer1{
-    width: 85vw;
+    width: 80vw;
   }
   #myLinks a{
     padding:7px 20px;
@@ -593,7 +594,7 @@ footer{
     flex-direction: column;
   }
   .react-slideshow-container{
-    max-width: 83vw;
+    max-width: 79vw;
   }
   .each-fade{
     min-height: 50vh;
@@ -615,7 +616,7 @@ footer{
     color: #000;
   }
   .slide-container .i1{
-    background-image: url("https://www.mandatory.com/assets/uploads/2015/12/Supergirl-Comic-Featured.jpg");
+    background-image: url("https://wallpapers.com/images/high/comic-supergirl-in-outer-space-j1w0j9558zjy7ze0.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     min-height:80vh;
@@ -647,10 +648,10 @@ footer{
     font-weight: 300;
   }
   .content10{
-    background-color: #F5EDDC;
+    background-color: #f5e7c8;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
     flex-direction: column;
   }
   .content10 .slide h1{
@@ -661,11 +662,19 @@ footer{
   /*HERO IMAGE SAMPLE*/
   .sample .s1{
     position: fixed;
-    min-width: 15vw;
+    min-width: 10vw;
     min-height: 100vh;
-    background-color: red;
     left: 0;
     top:0;
+    z-index:75;
+    background-color: #f5e7c8;
+  }
+  .sample .s2{
+    position: fixed;
+    min-width: 10vw;
+    min-height: 100vh;
+    top: 0;
+    right:0;
     z-index:75;
     background-color: #f5e7c8;
   }
@@ -812,7 +821,7 @@ footer{
     flex-direction: column;
   }
   .react-slideshow-container{
-    max-width: 90vw;
+    max-width: 70vw;
   }
   .each-fade{
     min-height: 50vh;

@@ -62,7 +62,7 @@ export default function Component3() {
       </div>
       <div className="aa">
         <div className="a">
-          <p>Who Is Her-o <br/>
+          <p>Who is HER-O <br/>
               “Necessity is the mother of change“<br/>
               Keeping the her anonymity we would like</p>
           <div id="message">
