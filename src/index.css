@@ -433,7 +433,7 @@ ul{
 .content1{
   display: flex;
   justify-content:center;
-  align-items:center;
+  align-items:end;
   flex-direction: column;
   font-size: 1.25rem;
   min-height: 50vw;
@@ -444,7 +444,7 @@ ul{
   min-height: 85vh;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: end;
   flex-direction: column;
   flex-wrap: wrap;
   background-color: #000;
@@ -455,7 +455,7 @@ ul{
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  max-width:75vw;
+  max-width:85vw;
   min-height: 60vh;
 }
 .upper .aa{
@@ -475,14 +475,14 @@ ul{
 }
 .SV{
   position: relative;
-  max-width: 80vw;
+  max-width: 85vw;
   font-size: 1.5rem;
   min-height:50vh;
   background-color: #F5EDDC;
 }
 .about-us{
   position: relative;
-  max-width: 80vw;
+  max-width: 85vw;
   font-size: 1.5rem;
   min-height:50vh;
 }
@@ -546,10 +546,8 @@ footer{
 
 @media only screen and (min-width:1000px) {
   .HERO{
-    width: 10vw;
-    height: 50vh;
-    position: absolute;
-    top:25%;
+    height: auto;
+    width: 15vw;
   }
   .content1{
     height: 50vh;
@@ -557,13 +555,10 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
   }
-  .content1 .bgm{
-    max-width:80vw;
-  }
   .content9{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     flex-direction: column;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Pattambi_Town1.jpg/1280px-Pattambi_Town1.jpg");
     background-repeat: no-repeat;
@@ -586,11 +581,11 @@ footer{
   .footer{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     flex-direction: column;
   }
   .footer1{
-    width: 80vw;
+    width: 85vw;
   }
   #myLinks a{
     padding:7px 20px;
@@ -603,7 +598,7 @@ footer{
     flex-direction: column;
   }
   .react-slideshow-container{
-    max-width: 79vw;
+    max-width: 84vw;
   }
   .each-fade{
     min-height: 50vh;
@@ -629,24 +624,28 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
     min-height:80vh;
+    padding:0 5vw;
   }
   .i2{
     background-image: url("https://c4.wallpaperflare.com/wallpaper/450/920/892/comics-comic-books-comic-art-comic-girls-mystique-hd-wallpaper-thumb.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     min-height:80vh;
+    padding:0 5vw;
   }
   .i3{
     background-image: url("https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1565376474186-3E63J2J8W93PD3EQ21AS/image-asset.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     min-height:80vh;
+    padding:0 5vw;
   }
   .i4{
     background-image: url("https://nerdist.com/wp-content/uploads/2017/11/Marvel-Multiple-Man.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     min-height:80vh;
+    padding:0 5vw;
   }
   .opa{
     background-color: #ffffff;
@@ -660,7 +659,7 @@ footer{
     background-color: #f5e7c8;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     flex-direction: column;
   }
   .content10 .slide h1{
@@ -671,12 +670,16 @@ footer{
   /*HERO IMAGE SAMPLE*/
   .sample .s1{
     position: fixed;
-    min-width: 10vw;
+    min-width: 15vw;
     min-height: 100vh;
     left: 0;
     top:0;
     z-index:75;
     background-color: #f5e7c8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
   }
   .sample .s2{
     position: fixed;
@@ -737,6 +740,10 @@ footer{
     color: #FFF2F2;
   }
   .upper{
+    background-image: url(./Components/HERO1.png);
+    background-size: 75vh auto;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -834,7 +841,7 @@ footer{
     flex-direction: column;
   }
   .react-slideshow-container{
-    max-width: 70vw;
+    max-width: 90vw;
   }
   .each-fade{
     min-height: 50vh;
@@ -901,6 +908,10 @@ footer{
   }
   .upper{
     min-height: 75vh;
+    background-image: url(./Components/HERO1.png);
+    background-size: 95vh auto;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -3,7 +3,6 @@ import React from 'react';
 export default function Component3() {
   return (
     <div className="content1" id="about">
-    <div className="bgm">
     <div className="about-us">
               <h1>About HER-O</h1>
               <p>Her-o comes from the word hero but its her-o representing the majority of sexually abused victims. 
@@ -14,7 +13,6 @@ export default function Component3() {
                 Her-o is a website that acts as a medium to connect people who are dealing with sexual exploitation. Pattambi has reached its zenith with this cause apparently people can’t control their thoughts. J is advocating for rights for people who are victims of this inhumane act. 
                 </p>
           </div>
-    </div>
           
       </div>
   );
