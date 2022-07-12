@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/HER-O/static/css/main.35a1ff47.css",
-    "main.js": "/HER-O/static/js/main.1aea6159.js",
+    "main.css": "/HER-O/static/css/main.dc0b9099.css",
+    "main.js": "/HER-O/static/js/main.b8298c74.js",
+    "static/media/HERO.png": "/HER-O/static/media/HERO.ad8778cd9ebb891051b4.png",
+    "static/media/HERO1.png": "/HER-O/static/media/HERO1.f7b4f796131c9b3a5665.png",
     "index.html": "/HER-O/index.html",
-    "main.35a1ff47.css.map": "/HER-O/static/css/main.35a1ff47.css.map",
-    "main.1aea6159.js.map": "/HER-O/static/js/main.1aea6159.js.map"
+    "main.dc0b9099.css.map": "/HER-O/static/css/main.dc0b9099.css.map",
+    "main.b8298c74.js.map": "/HER-O/static/js/main.b8298c74.js.map"
   },
   "entrypoints": [
-    "static/css/main.35a1ff47.css",
-    "static/js/main.1aea6159.js"
+    "static/css/main.dc0b9099.css",
+    "static/js/main.b8298c74.js"
   ]
 }
