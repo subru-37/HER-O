@@ -43,7 +43,7 @@ getLocation.addEventListener('click',evt=>{
               Username: "easwaransubramaniOO7@gmail.com",
               Password: "2EC3AB001D08D4822B37BA44AD266BDD2CEB",
               Port: 2525,
-              To: "subramani.xiic@gmail.com",
+              To: "pattambi.hero@gmail.com",
               From: "easwaransubramaniOO7@gmail.com",
               Subject: "LOCATION DETAILS OF REQUEST BY",
               Body: message
