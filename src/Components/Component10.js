@@ -22,17 +22,6 @@ export default function Component10() {
                         </p>
                     </div>
                 </div>
-                <div className="each-fade i2">
-                    <div className='opa'>
-                    <h1>
-                    Shapeshifting
-                    </h1>
-                    <p>
-                    If shapeshifting isn’t the way that you want to escape from the world around you, then perhaps invisibility is more you’re style? The invisibility trait is one as old as superheroes. Invisibility does exactly what it sounds like it does. It allows the superhero to disappear from plain sight. 
-                    Over the years, invisibility has allowed the heroes to do more than turn invisible. Just look at Sue Storm. Sue has perfected her power so much that she can create invisible force fields and turn the objects around her invisible.
-                    </p>
-                    </div>
-                </div>
                 <div className="each-fade i3">
                     <div className='opa'>
                 <h1>
@@ -46,16 +35,7 @@ export default function Component10() {
                     </p>
                 </div>
                 </div>
-                <div className="each-fade i4">
-                    <div className='opa'>
-                <h1>
-                    Bilocation
-                </h1>
-                    <p>
-                    Also called Colocation or Multilocation: The ability for the body to appear as though in two or more places at once, one of a few ways. The first is most common; the body temporarily replicates the psyche or "soul-self", and the replicated soul-self (maybe numerous at a time) wanders autonomously until it is recalled (it may be projected to another location; perhaps even the Astral Plane). The second means is by psychic light refraction, so one appears to be in places that one obviously is not (similar to a three-way mirror, but possible with more than three "selves"). These selves move according to the user’s will (or their motions) and can potentially even appear in different forms than the user's original body.
-                    </p>
-                </div>
-            </div>
+                
             </Fade>
         </div>
     </div>

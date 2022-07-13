@@ -626,22 +626,8 @@ footer{
     min-height:80vh;
     padding:0 5vw;
   }
-  .i2{
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/450/920/892/comics-comic-books-comic-art-comic-girls-mystique-hd-wallpaper-thumb.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height:80vh;
-    padding:0 5vw;
-  }
   .i3{
     background-image: url("https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1565376474186-3E63J2J8W93PD3EQ21AS/image-asset.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height:80vh;
-    padding:0 5vw;
-  }
-  .i4{
-    background-image: url("https://nerdist.com/wp-content/uploads/2017/11/Marvel-Multiple-Man.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     min-height:80vh;
@@ -1035,20 +1021,8 @@ footer{
     background-repeat: no-repeat;
     min-height:75vh;
   }
-  .i2{
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/450/920/892/comics-comic-books-comic-art-comic-girls-mystique-hd-wallpaper-thumb.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height:75vh;
-  }
   .i3{
     background-image: url("https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1565376474186-3E63J2J8W93PD3EQ21AS/image-asset.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height:75vh;
-  }
-  .i4{
-    background-image: url("https://nerdist.com/wp-content/uploads/2017/11/Marvel-Multiple-Man.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     min-height:75vh;
