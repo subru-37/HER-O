@@ -19,17 +19,17 @@ update();
 const nav = document.getElementById("glass");
 let lastScrollY = window.scrollY;
 window.addEventListener("scroll", () => {
-  if ((lastScrollY<window.scrollY)){
-    nav.classList.add("hidden-nav");
-    
+  if ((lastScrollY>window.scrollY)){
+    nav.classList.remove("hidden-nav")
   }else{
-    nav.classList.remove("hidden-nav");
+    nav.classList.add("hidden-nav")
   }
   lastScrollY=window.scrollY;
+  
 });  
-// document.querySelector('#myLinks').addEventListener('click', () => {
-//   document.querySelector('#myLinks').style.display ="none"
-// }); 
+document.querySelector('#myLinks').addEventListener('click', () => {
+  document.querySelector('#myLinks').style.display ="none"
+}); 
 const getLocation = document.getElementById("locate2");
 getLocation.addEventListener('click',evt=>{
     if('geolocation' in navigator){

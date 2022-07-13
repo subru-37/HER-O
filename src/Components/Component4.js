@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Component3() {
+export default function Component4() {
   return (
     <div className="upper">
       <div className='upper1'>

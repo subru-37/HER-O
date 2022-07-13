@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Component3() {
+export default function Component5() {
   return (
     <div className="content1" id="about">
     <div className="about-us">

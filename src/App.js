@@ -4,7 +4,6 @@ import Component2 from './Components/Component2';
 import Component3 from './Components/Component3';
 import Component4 from './Components/Component4';
 import Component5 from './Components/Component5';
-import Component6 from './Components/Component6';
 import Component8 from './Components/Component8';
 import Component9 from './Components/Component9';
 import Componentf from './Components/Componentf';
@@ -25,7 +24,6 @@ export default function App() {
         <Component9/>
         <Component10/>
       </div>
-      {/* <Component6/> */}
       <Componentf/>
     </div>
   );
