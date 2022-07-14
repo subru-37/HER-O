@@ -27,9 +27,14 @@ window.addEventListener("scroll", () => {
   lastScrollY=window.scrollY;
   
 });  
-document.querySelector('#myLinks').addEventListener('click', () => {
-  document.querySelector('#myLinks').style.display ="none"
-}); 
+var Width = window.innerWidth;
+console.log(Width);
+if(Width<1000){
+  document.querySelector('#myLinks').addEventListener('click', () => {
+    document.querySelector('#myLinks').style.display ="none"
+  }); 
+}
+
 const getLocation = document.getElementById("locate2");
 getLocation.addEventListener('click',evt=>{
     if('geolocation' in navigator){
