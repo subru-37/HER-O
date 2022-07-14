@@ -41,12 +41,13 @@ window.addEventListener("scroll", () => {
 window.addEventListener('resize', reportWindowSize);
 function reportWindowSize(){
   var Width = window.innerWidth;
-  console.log(Width);
   if(Width<1000){
     document.querySelector('#myLinks').addEventListener('click', () => {
       document.querySelector('#myLinks').style.display ="none"
   }); 
-}
+  }else{
+    document.getElementById("myLinks").style.display = "block";
+  }
 }
 
 
