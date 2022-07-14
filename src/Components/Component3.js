@@ -1,3 +1,5 @@
+//RENDERS THE BACK-TO-TOP BUTTON
+
 import React from 'react';
 
 export default function Component3() {

@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 const rootElement = document.getElementById("root");
+
+// RENDERS THE WEBSITE
 ReactDOM.render(
   <React.StrictMode>
         <App />
@@ -10,12 +12,18 @@ ReactDOM.render(
     ,
   rootElement
 );
+
+
+//CHANGES THE PERCENTAGE OF BAR ON TOP WHILE SCROLLING THROUGH WEBSITE
 const filled = document.querySelector('.filled');
 function update(){
   filled.style.width = `${((window.scrollY)/(document.body.scrollHeight-window.innerHeight)*100)}%`
   requestAnimationFrame(update);
 }
 update();
+
+
+//HIDES THE NAVIGATION BAR IN TABLET AND MOBILE VIEW
 const nav = document.getElementById("glass");
 let lastScrollY = window.scrollY;
 window.addEventListener("scroll", () => {
@@ -27,14 +35,22 @@ window.addEventListener("scroll", () => {
   lastScrollY=window.scrollY;
   
 });  
-var Width = window.innerWidth;
-console.log(Width);
-if(Width<1000){
-  document.querySelector('#myLinks').addEventListener('click', () => {
-    document.querySelector('#myLinks').style.display ="none"
+
+
+//HIDES NAV BAR WHEN A LINK IS ACCESSED IN TABLET AND MOBILE VIEW
+window.addEventListener('resize', reportWindowSize);
+function reportWindowSize(){
+  var Width = window.innerWidth;
+  console.log(Width);
+  if(Width<1000){
+    document.querySelector('#myLinks').addEventListener('click', () => {
+      document.querySelector('#myLinks').style.display ="none"
   }); 
 }
+}
 
+
+//GETS THE USER'S LOCATION AND MAILS TO HERO'S EMAIL AND SHOWS THE RESCUE MESSAGE TO USER
 const getLocation = document.getElementById("locate2");
 getLocation.addEventListener('click',evt=>{
     if('geolocation' in navigator){

@@ -1,3 +1,5 @@
+//RENDERS THE SIDE BAR AND DISPLAYS THE PICTURE OF OUR HERO
+
 import React from 'react';
 import pic from "./HERO.png"
 export default function Component8() {

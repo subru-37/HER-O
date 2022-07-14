@@ -1,3 +1,5 @@
+//RENDERS THE SLIDESHOW WHICH DISPLAYS POWERS OF OUR HER-O
+
 import React from 'react';
 import "react-slideshow-image/dist/styles.css";
 import { Fade } from "react-slideshow-image";

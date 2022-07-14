@@ -1,3 +1,5 @@
+// RENDERS NAVIGATION BAR AND HAMBURGER ICON
+
 import React from 'react';
 var x = document.getElementById("myLinks");
 export default function Component1() {
@@ -15,8 +17,7 @@ export default function Component1() {
         </ul>
       </nav>
     </div>
-        <a className="icon" onClick={window['myFunction']}><i className="fa fa-bars" ></i></a>
-        
+        <a className="icon" onClick={window['myFunction']}><i className="fa fa-bars" ></i></a>     
   </div>
   
   );

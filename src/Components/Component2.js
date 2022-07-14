@@ -1,3 +1,5 @@
+//RENDERS THE SCROLL PROGRESS BAR
+
 import React from 'react';
 
 export default function Component2() {

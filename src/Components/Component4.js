@@ -1,3 +1,5 @@
+//RENDERS THE PART OF HTML PAGE TILL THE HERO MESSAGE
+
 import React from 'react';
 
 export default function Component4() {
