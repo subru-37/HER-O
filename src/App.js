@@ -19,10 +19,10 @@ export default function App() {
       <Component3/>
       <div>
         <Component4/>
-        <Component5/>
         <Component8/>
         <Component9/>
         <Component10/>
+        <Component5/>
       </div>
       <Componentf/>
     </div>
