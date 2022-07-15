@@ -19,8 +19,8 @@ export default function Component10() {
                         Flight
                         </h1>
                         <p>
-                        Of all the traditional superhero powers, very few are as easily named as flight. I mean, flight and superheroes go hand in hand. Go ahead, try to name ten superpowers without naming flight. Even though it’s not impossible, it is really hard.
-                        In truth, there are more superheroes who can fly than I can probably name. I’d like to give you a really good reason as to why this is, but the reason isn’t that good. Simply put, flight is synonymous with superheroes because flight is something we all wish we can do. 
+                        Of all the traditional superhero powers, very few are as easily named as flight. What is a superhero without flying abilities? Flight is of prime importance because the her-o needs to reach at the place of action within a fraction of second. Even though it’s not impossible, it is really hard without it.
+                        Flight can exponentially unleash the potential that Lies within. Simply put, flight is synonymous with superheroes because flight is something every commoner desires. 
                         </p>
                     </div>
                 </div>
@@ -30,10 +30,7 @@ export default function Component10() {
                     Healing 
                 </h1>
                     <p>
-                    Of all the traditional superhero powers, none can give a hero the longevity that increased healing can. Not only does expedite the time for wounds to repair but it also greatly increases the length of life of a hero. 
-                    And how?
-                    Simple. 
-                    If a body heals quickly externally, it also means that heals quickly internally. Think about it like this. A superhero who can heal never has to worry about a heart attack, kidney failure, infection, or the like. In addition, due to their power to heal they also age very slowly. 
+                    The longevity of the hero's existence depends on healing. Not only does expedite the time for wounds to repair but it also greatly increases the length of life of a hero. If a body can heal quickly externally, it also means that it heals quickly internally. A superhero who can heal never has to worry about a heart attack, kidney failure, infection, or the like. In addition, due to their power to heal they also age at an infinitesimal rate.
                     </p>
                 </div>
                 </div>
