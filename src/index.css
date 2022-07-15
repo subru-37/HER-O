@@ -49,7 +49,7 @@ ul{
   color: #000;
 }
 .content9 .SV p{
-  padding-left: 5vw;
+  padding: 0 3vw;
   color:black;
 }
 .content2{
@@ -64,7 +64,7 @@ ul{
   color: #000;
 }
 .content1 .about-us p{
-  padding-left: 5vw;
+  padding: 0 3vw;
   color:black;
 }
 .content2 .compliance p{
@@ -433,7 +433,7 @@ ul{
 .content1{
   display: flex;
   justify-content:center;
-  align-items:end;
+  align-items:center;
   flex-direction: column;
   font-size: 1.25rem;
   min-height: 50vw;
@@ -444,10 +444,13 @@ ul{
   min-height: 85vh;
   display: flex;
   justify-content: space-around;
-  align-items: end;
+  align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: #000;
+  background-image: url(./Components/HERO1.png);
+  background-size: 95vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .upper1{
   position: relative;
@@ -558,7 +561,7 @@ footer{
   .content9{
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
     flex-direction: column;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Pattambi_Town1.jpg/1280px-Pattambi_Town1.jpg");
     background-repeat: no-repeat;
@@ -585,7 +588,8 @@ footer{
     flex-direction: column;
   }
   .footer1{
-    width: 85vw;
+    width: 100%;
+    z-index: 150;
   }
   #myLinks a{
     padding:7px 20px;
@@ -645,7 +649,7 @@ footer{
     background-color: #f5e7c8;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
     flex-direction: column;
   }
   .content10 .slide h1{
@@ -656,7 +660,7 @@ footer{
   /*HERO IMAGE SAMPLE*/
   .sample .s1{
     position: fixed;
-    min-width: 15vw;
+    min-width: 8vw;
     min-height: 100vh;
     left: 0;
     top:0;
@@ -669,12 +673,16 @@ footer{
   }
   .sample .s2{
     position: fixed;
-    min-width: 10vw;
+    min-width: 8vw;
     min-height: 100vh;
-    top: 0;
-    right:0;
+    right: 0;
+    top:0;
     z-index:75;
     background-color: #f5e7c8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
   }
 }
 
