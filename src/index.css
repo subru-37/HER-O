@@ -448,7 +448,7 @@ ul{
   flex-direction: column;
   flex-wrap: wrap;
   background-image: url(./Components/HERO1.png);
-  background-size: 95vh auto;
+  background-size: 130vh auto;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -735,7 +735,7 @@ footer{
   }
   .upper{
     background-image: url(./Components/HERO1.png);
-    background-size: 75vh auto;
+    background-size: 70vh auto;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
