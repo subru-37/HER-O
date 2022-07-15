@@ -7,7 +7,7 @@ export default function Component9() {
     <div className="content9">
         <div className="SV">
             <h1  id="SV">
-                    Meet  Pattambi's First Female Superhero Who Fights Sexual Violence 
+                    About HER-O
             </h1>
             <p>
                   Her-o is here to save the Pattambi residents at  single click.
