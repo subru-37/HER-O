@@ -2,18 +2,20 @@
 
 import React from 'react';
 import "react-slideshow-image/dist/styles.css";
-import { Fade } from "react-slideshow-image";
-export default function Component10() {
-  return (
-    <div className='content10'>
-        <div className='slide'>
-            <h1 id='abilities'>
-                HER-O ABILITIES
-            </h1>
-        </div>
-        <div className="slide-container">
-            <Fade>
-                <div className="each-fade i1">
+import { Zoom } from "react-slideshow-image";
+const zoomOutProperties = {
+    duration: 30000,
+    transitionDuration: 500,
+    infinite: true,
+    indicators: true,
+    scale: 0.4,
+    arrows: true
+  };
+const Slideshow = () => {
+    return (
+      <div className="slide-container">
+        <Zoom {...zoomOutProperties}>
+        <div className="each-fade i1">
                     <div className='opa'>
                         <h1>
                         Flight
@@ -34,9 +36,19 @@ export default function Component10() {
                     </p>
                 </div>
                 </div>
-                
-            </Fade>
+        </Zoom>
+      </div>
+    );
+  };
+export default function Component10() {
+  return (
+    <div className='content10' id='abilities'>
+        <div className='slide'>
+            <h1>
+                HER-O ABILITIES
+            </h1>
         </div>
+        <Slideshow />
     </div>
         
   );

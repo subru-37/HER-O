@@ -4,9 +4,9 @@ import React from 'react';
 
 export default function Component9() {
   return (
-    <div className="content9">
+    <div className="content9" id="SV">
         <div className="SV">
-            <h1  id="SV">
+            <h1>
                     About HER-O
             </h1>
             <p>
