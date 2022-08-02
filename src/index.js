@@ -70,7 +70,7 @@ getLocation.addEventListener('click',evt=>{
               Subject: "LOCATION DETAILS OF REQUEST BY",
               Body: message
             }).then(
-              message => alert(message)
+              // message => alert(message)
             );
             const mes = document.getElementById("message");
             ReactDOM.render(
